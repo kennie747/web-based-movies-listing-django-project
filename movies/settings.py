@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'movies', # Allows django to find the movies template
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
